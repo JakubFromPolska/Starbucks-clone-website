@@ -1,0 +1,265 @@
+body 
+{
+    background-color: #ffffff;
+    font-family: Poppins , serif;
+}
+
+img {
+    max-width: 110%;
+    height: auto;
+    display: block;
+  }
+#container
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#welcome
+{
+    color:rgb(0, 0, 0);
+    margin-top: 20px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.logo {
+    margin-left: 10px;
+   
+
+}
+
+#topbar
+{
+    background-color: #017143;
+    color:white;
+    padding:20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height:170px;
+}
+
+#topbarL
+{
+    float:left;
+    padding:20px;
+    width:138px;
+    text-align:center;
+    border-right: 2px dotted #cccc;
+ 
+}
+#topbarR
+{
+    float: left;
+    padding: 20px;
+    width: 760px;
+    font-size: 16px;
+    text-align: justify;
+
+}
+    #content
+    {
+        float: left;
+        padding: 40px;
+        width: 730px;
+        min-height: 580px;
+        text-align: justify;
+        position:relative; 
+    position:absolute; display:none; z-index:99; 
+    display:block; 
+
+}
+
+
+/* MENU TOP */
+header
+{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  padding:2% 69%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul
+ {
+position: relative;
+display: flex;
+ }
+
+ header ul li
+ {
+    list-style: none;
+ }
+ /* MENU BUTTONS HOOVER*/
+ header ul li:hover {
+    background-color: #017143;
+    border-radius: 18%;
+    
+    color: white;
+  }
+ /* DISTANZIAMENTO BUTTONS MENU */
+ header ul li a 
+{
+    display: inline-block;
+    color:#333;
+    font-weight:400;
+    margin-left:20px;
+    text-decoration:none;
+    
+}
+
+#latte
+{
+    
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    height: 200px;
+    width: 100%;
+    background-color: #FDFFF5;
+    text-align:center;
+    
+    
+}
+#choco
+{
+    float:right;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    height: 200px;
+    width: 100%;
+    background-color: #9E7462;
+    text-align:center
+    
+}
+
+#strawberry
+{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:end;
+    height: 200px;
+    width: 100%;
+    background-color: #FF9AA2;
+    text-align:left;
+    
+    
+}
+
+#vanilla
+{
+    
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:flex-end;
+    height: 200px;
+    width: 100%;
+    background-color: #F3E5AB;
+    text-align:center;
+
+}
+  
+#coconut
+{
+   
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    height: 200px;
+    width: 100%;
+    background-color: #fcf6df;
+    text-align:center;
+    
+    
+}
+
+.drinks
+{
+
+    justify-content: center;
+
+}
+/* PARAGRAPH TEXTS */
+p
+{
+    line-height: 1.6;
+    margin-top: 25px;
+    margin-left: 70px;
+}
+h2
+{
+
+   margin-left: 10px;
+}
+
+/* BUTTONS */
+
+#latte button{
+
+    background-color: #03ffff;
+    border-radius: 15%;
+    font-family: Poppins;
+    margin-top: 150px;
+    margin-left: 160px;
+    position: absolute;
+    
+    
+}
+
+#coconut button
+{
+    background-color: #03ffff;
+    border-radius: 15%;
+    font-family: Poppins;
+    margin-top: 150px;
+    margin-right: 300px;
+    position: absolute;
+   
+   
+    
+
+ 
+}
+
+#vanilla button
+{
+    background-color: #03ffff;
+    border-radius: 15%;
+    font-family: Poppins;
+    margin-top: 150px;
+    margin-left: 220px;
+    position: absolute;
+    
+}
+
+
+#strawberry button
+{
+    background-color: #03ffff;
+    border-radius: 15%;
+    font-family: Poppins;
+    margin-top: 150px;
+    margin-right: 170px;
+    position: absolute;
+   
+
+}
+
+#choco button
+{
+    background-color: #03ffff;
+    border-radius: 15%;
+    font-family: "Poppins";
+    margin-top: 150px;
+    margin-left: 220px;
+    position: absolute;
+    
+
+}
+
+ 
